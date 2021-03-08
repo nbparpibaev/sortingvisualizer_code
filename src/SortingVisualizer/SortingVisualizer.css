@@ -1,0 +1,28 @@
+.Visualizer {
+    position: relative;
+    min-height: 100vh;
+}
+
+.array-container {
+    position: absolute;
+    bottom: 6vh;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.array-bar {
+    width: 2px;
+    background-color: pink;
+    display: inline-block;
+    margin: 0 1px;
+
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 8vh;
+    background-color: #17135d;
+}
